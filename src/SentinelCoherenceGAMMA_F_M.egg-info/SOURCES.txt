@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/SentinelCoherenceGAMMA_F_M.egg-info/PKG-INFO
+src/SentinelCoherenceGAMMA_F_M.egg-info/SOURCES.txt
+src/SentinelCoherenceGAMMA_F_M.egg-info/dependency_links.txt
+src/SentinelCoherenceGAMMA_F_M.egg-info/top_level.txt
+src/SentinelGAMMA_pkg/__init__.py
