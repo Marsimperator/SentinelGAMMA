@@ -168,8 +168,8 @@ def DEM_Select():
         return DEM_Select()
            
 def PALSARDEM(datapath):
-    #diese Funktion erfordert, dass die PALSAR-tif Raster in den entpackten Ordnern und diese wiederum
-    #im Arbeitsverzeiichnis liegen
+    #this function requires for the PALSAR-tif Rasters to be in their unpacke folders and
+    #thos folders need to be in the working directory
     os.chdir(datapath)
     folderlist = []
     for folder in os.scandir():
@@ -186,7 +186,7 @@ def PALSARDEM(datapath):
     return "palsar.dem"
                 
 def SRTMDEM(datapath):
-    #für diese Funktion sollten die srtm-DEMs direkt im Arbeitsverzeichnis liegen
+    #the DEM files should be directly in the working directory
     os.chdir(datapath)
     demlist = []
     for file in os.scandir():
